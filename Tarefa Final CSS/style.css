@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background-color: #f1f3f6;
+    font-family: sans-serif;
+}
+
+.topo{
+    background-color: #141b26;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topo header{
+    color:white;
+}
+
+.topo header h1{
+    font-size: 30px;
+}
+
+.topo header p{
+    font-size: 20px;
+    color: #8ba7c2;
+}
+
+.topo nav{
+    margin-top: 45px;
+    margin-right: 30px;
+}
+
+.topo nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.banner{
+    text-align: center;
+    background-color: #1e51e3;
+    color: white;
+    padding: 20px;
+}
+
+.banner h2{
+    font-size: 40px;
+}
+
+.banner p{
+    font-size: 20px;
+}
+
+.quadrado{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    margin:30px;
+    border-radius: 15px;
+    display: flex;
+    padding: 70px;
+}
+
+.cardarea1{
+    padding: 50px;
+    display: flex;
+    gap: 40px;
+    background-color: white
+}
+
+.quadradinhos{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+
+.quadradinhos img{
+    margin: 25px;
+    border-radius: 10px;
+    width: 240px;
+    height: 260px;
+}
+
+.quadradinhos h3{
+    font-size: 25px
+}
+
+.quadradinhos p{
+    font-size: 22px;
+}
+
+.quadradinhos a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #2563eb;
+}
+
+.cardarea2{
+    margin-left: 100px;
+}
+
+.card{
+    border-radius: 10px;
+    color: white;
+    background-color: #141b26;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.cardarea2{
+    margin-top: 100px;
+}
+
+.cardizinho h3{
+    margin-left: 10px;
+}
+
+.cardizinho p{
+    margin-left: 10px;
+}
+
+.cardizinho{
+    background-color: #F8F9FA;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    width: 600px;
+    border-left: 5px solid #2563eb;
+}
+
+footer{
+    background-color: #141b26;
+    color: white;
+}
+
+.footerarea{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 10px;
+}
