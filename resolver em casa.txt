@@ -1,0 +1,1496 @@
+'''
+parte 1
+'''
+
+'''
+ex 1
+
+print("Hellow, World") 
+'''
+
+'''
+ex 2
+nome = input ("Digite seu nome:") 
+idade = int(input("Digite sua idade:"))
+cidade = input("Digite sua cidade")                                
+print("Seu nome é:" ,nome, "e sua idade é:" ,idade, "e sua cidade é:" ,cidade)
+'''
+
+'''
+ex 3
+nomeUsu = input("Digite seu nome de Usuário:")
+print("Usuário:" ,nomeUsu)
+'''
+
+'''
+ex 4
+idadeUsu = input("Digite sua idade:")
+print("Idade do Usuário:" ,idadeUsu)
+'''
+
+'''
+ex 5
+x = int(input("Digite o primeiro Número:"))
+y = int(input("Digite o segundo Número:"))
+print(x + y)
+'''
+
+'''
+ex 6
+x = int(input("Digite um número:"))
+y = int(input("Digite outro número para mostrar os resultados:"))
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+'''
+
+'''
+ex 7
+x = int(input("Digite um número:"))
+print(x * 2 )
+'''
+
+'''
+ex 8
+x = int(input("Digite um número:"))
+print(x * 3)
+print(x / 2)
+'''
+
+'''
+ex 9
+nome = input("Digite seu primeiro nomne:")
+sobrenome = input("Digite seu sobrenome:")
+print("Seu nome é:" ,nome ,sobrenome)
+'''
+
+'''
+ex 10
+anoNasc = int(input("Digite seu ano de nascimento:"))
+anoAtu = (2026)
+print("sua idade é de aproximadamente" ,anoAtu - anoNasc , "anos")
+'''
+
+'''
+ex 11
+metros = float(input("Digite uma medida  em metros: "))
+centimetros = metros * 100
+milimetros = metros * 1000
+print("Metros equivalem a" ,centimetros,"cm" ,"e" ,milimetros,"mm")
+'''
+
+'''
+ex 12
+minutos = int(input("Digite a quantidade de minutos:"))
+segundos = minutos * 60
+print(minutos ,"minutos equivalem a" ,segundos ,"segundos")
+'''
+
+'''
+ex 13
+horas = int(input("Digite a quantidade de horas:"))
+minutos = horas * 60
+print(horas ,"horas equivalem a" ,minutos ,"minutos")
+'''
+
+'''
+ex 14
+celsius = float(input("Digite um valor em °C:"))
+fahrenheit = celsius * 9 / 5 + 32
+print( celsius ,"°C equivalem a" ,fahrenheit ,"F")
+'''
+
+'''
+ex 15
+reais = float(input("Digite um valor em R$:"))
+cotacao_dolares = 5.00
+dolares = reais / cotacao_dolares
+print("com" ,"R$",reais ,"você pode comprar" ,"US$",dolares)
+'''
+
+'''
+parte 2
+'''
+
+'''
+ex 16
+lado = float(input("Digite o tamanho do lado do quadrado:"))
+area = lado * 2
+print("A área do quadrado é:" ,area)
+'''
+
+'''
+ex 17
+largura = float(input("Digite o tamanho da largura:"))
+altura = float(input("Digite o tamanho da altura"))
+area = largura * altura
+print("A área do retangulo é:" ,area)
+'''
+
+'''
+ex 18
+base = float(input("Digite o tamanho da base:"))
+altura = float(input("Digite o tamanho da altura:"))
+area = base * altura / 2
+print("A área retândulo é:" ,area)
+'''
+
+'''
+ex 19
+raio = float(input("Digite o raio do circulo:"))
+pi = 3.14
+area = pi * raio * 2
+print("A área do circulo é:" ,area) 
+'''
+
+'''
+ex 20
+largura = float(input("Digite a largura do retângulo:"))
+altura = float(input("Digite a altura do retângulo:"))
+perimetro = 2 * largura + altura
+print("O perímetro do retângulo é:" ,perimetro)
+'''
+
+'''
+ex 21
+nota1 = int(input("Digite a primeira nota:"))
+nota2 = int(input("Digite a segunda nota:"))
+nota3 = int(input("Digite a terceira nota:"))
+aritmetica = nota1 + nota2 + nota3 / 3
+print("A media aritmetica é:" ,aritmetica)
+'''
+
+'''
+ex 22
+valor_hora = float(input("Digite quanto ganha por hora: "))
+horas_trabalhadas = float(input("Digite o número de horas trabalhadas no mês: "))
+salario_bruto = valor_hora * horas_trabalhadas
+print("O salário bruto do mês é: R$" ,salario_bruto)
+'''
+
+'''
+ex 23
+salario = float(input("Digite o salário atual: R$ "))
+aumento = salario * 0.10
+novo_salario = salario + aumento
+print("Salário original: R$" ,salario)
+print("Valor do aumento (10%): R$" ,aumento)
+print("Novo salário: R$" ,novo_salario)
+'''
+
+'''
+ex 24
+preco = float(input("Digite o preço do produto: R$ "))
+desconto = preco * 0.15
+preco_final = preco - desconto
+print("Valor do desconto (15%): R$" ,desconto)
+print("Preço final com desconto: R$" ,preco_final)
+'''
+
+'''
+ex 25
+valor_total = float(input("Digite o valor total da compra: R$ "))
+qtd_parcelas = int(input("Digite a quantidade de parcelas: "))
+valor_parcela = valor_total / qtd_parcelas
+print("A compra será dividida em" ,qtd_parcelas ,"sem juros de R$" ,valor_parcela)
+'''
+
+'''
+ex 26
+peso = float(input("Digite seu peso em kg: "))
+altura = float(input("Digite sua altura em metros: "))
+imc = peso / altura * 2
+print("Seu IMC é:" ,imc)
+'''
+
+'''
+ex 27
+nota1 = float(input("Digite a primeira nota (peso 2): "))
+nota2 = float(input("Digite a segunda nota (peso 3): "))
+media_ponderada = (nota1 * 2 + nota2 * 3) / (2 + 3)
+print("A média ponderada é:" ,media_ponderada)
+'''
+
+'''
+ex 28
+num1 = int(input("Digite o primeiro número inteiro (dividendo): "))
+num2 = int(input("Digite o segundo número inteiro (divisor): "))
+quociente = num1 / num2
+resto = num1 % num2
+print("Quociente da divisão inteira:" ,quociente)
+print("Resto da divisão:" ,resto)
+'''
+
+'''
+ex 29
+numero = int(input("Digite um número inteiro: "))
+antecessor = numero - 1
+sucessor = numero + 1
+print("O antecessor de" ,numero ,"é" ,antecessor ,"e o sucessor é" ,sucessor)
+'''
+
+'''
+ex 30
+base = float(input("Digite a base: "))
+expoente = float(input("Digite o expoente: "))
+resultado = base ** expoente
+print(base ,"elevado a" ,expoente ,"é igual a:" ,resultado)
+'''
+
+'''
+Parte 3
+'''
+
+'''
+ex 31
+numero = int(input("Digite um número:"))
+if (numero > 0):
+    print("Número positivo")
+elif (numero == 0):
+    print("Número igual a 0")
+else:
+    print("Número provavelmente negativo")
+'''
+
+'''
+ex 32
+idade = int(input("Digite sua idade:"))
+if (idade >= 18):
+    print("Maior de idade")
+elif (idade <= 17):
+    print("Menor de idade")
+'''
+
+'''
+ex 33
+numero = int(input("Digite um número inteiro: "))
+if (numero % 2 == 0):
+    print("O número" ,numero ,"é PAR.")
+else:
+    print("O número" ,numero ,"é ÍMPAR")
+'''
+
+'''
+ex 34
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+if n1 > n2:
+    print("O maior número é" ,n1)
+elif n2 > n1:
+    print("O maior número é" ,n2)
+else:
+    print("Os dois números são iguais.")
+'''
+
+'''
+ex 35
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+c = float(input("Digite o terceiro número: "))
+if a >= b and a >= c:
+    maior = a
+elif b >= a and b >= c:
+    maior = b
+else:
+    maior = c
+
+print("O maior número é:" ,maior)
+'''
+
+'''
+ex 36
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+c = float(input("Digite o terceiro número: "))
+if a <= b and a <= c:
+    menor = a
+elif b <= a and b <= c:
+    menor = b
+else:
+    menor = c
+
+print("O menor número é:" ,menor)
+'''
+
+'''
+ex 37
+media = float(input("Digite sua nota"))
+if (media >= 6):
+    print("Aprovado")
+else:
+    print("Reprovado")
+'''
+
+'''
+ex 38
+nota = float(input("Digite a sua nota:"))
+if (nota >=18):
+    print("Aprovado!")
+elif (nota ==15):
+    print("Recuperação!!")
+else:
+    print("Reprovado!!!")
+'''
+
+'''
+ex 39
+idade = int(input("Digite a idade: "))
+if idade <= 11:
+    print("Criança")
+elif idade <= 17:
+    print("Adolescente")
+elif idade <= 59:
+    print("Adulto")
+else:
+    print("Idoso")
+'''
+
+'''
+ex 40
+senha_correta = "plutão123"
+senha = input("Digite sua senha:")
+if (senha==senha_correta):
+    print("Seja bem-vindo")
+else:
+    print("Senha incorreta")
+'''
+
+'''
+ex 41
+senha_correta = "adm444"
+usuario_correto = "socaqui"
+usuario = input("Digite seu nome de usuário")
+senha = input("Digite sua senha")
+
+if (usuario == usuario_correto and senha == senha_correta):
+    print("Bem-vindo")
+else:
+    print("Usuario incorreto")
+'''
+
+'''
+ex 42
+numero = int(input("Digite um número inteiro:"))
+if (numero % 5 == 0):
+    print("O número" ,numero ,"é multiplo de 5")
+else:
+    print("O número não é multiplo de 5!")
+'''
+
+'''
+ex 43
+numero = int(input("Digite um número inteiro:"))
+if (numero % 3 == 0 and numero % 5 == 0):
+    print("O número" ,numero ,"é divisível por 3 e 5")
+else:
+    print("O número não é divisível por 3 e 5")
+'''
+
+'''
+ex 44
+ano = int(input("Digite um ano:"))
+if (ano % 4 == 0):
+    print("O ano" ,ano ,"é bissexto")
+else:
+    print("O ano não é bissexto")
+'''
+
+'''
+ex 45
+valor_compra = float(input("Digite o valor total da compra: R$ "))
+if valor_compra >= 200:
+    desconto = valor_compra * 0.10
+    total = valor_compra - desconto
+    print("Desconto de 10% aplicado R$" ,desconto ,"Total a pagar: R$" ,total)
+else:
+    print("Sem desconto. Total a pagar: R$" ,valor_compra)
+'''
+
+'''
+ex 46
+valor_compra = float(input("Digite o valor da compra: R$ "))
+if valor_compra >= 150.0:
+    frete = 0.0
+    print("Você ganhou Frete grátis")
+else:
+    frete = 20.0
+    print("Frete: R$ 20,00")
+total = valor_compra + frete
+print("Valor total a pagar: R$" ,total)
+'''
+
+'''
+ex 47
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+operacao = input("Escolha a operação (+, -, *, /): ")
+if operacao == "+":
+    print(n1 + n2)
+
+elif operacao == "-":
+    print(n1 - n2)
+
+elif operacao == "*":
+    print(n1 * n2)
+
+elif operacao == "/":
+    if n2 == 0:
+        print("Erro: não pode dividir por zero")
+    else:
+        print(n1 / n2)
+
+else:
+    print("Operação inválida")
+'''
+
+'''
+ex 48
+a = float(input("Digite o comprimento do lado A: "))
+b = float(input("Digite o comprimento do lado B: "))
+c = float(input("Digite o comprimento do lado C: "))
+if a < b + c and b < a + c and c < a + b:
+    print("Os lados informados PODEM formar um triângulo.")
+else:
+    print("Os lados informados NÃO podem formar um triângulo.")
+
+'''
+
+'''
+ex 49
+a = float(input("Digite o comprimento do lado A: "))
+b = float(input("Digite o comprimento do lado B: "))
+c = float(input("Digite o comprimento do lado C: "))
+if a < b + c and b < a + c and c < a + b:
+    if a == b == c:
+        print("Triângulo Equilátero (todos os lados iguais).")
+    elif a == b or a == c or b == c:
+        print("Triângulo Isósceles (dois lados iguais).")
+    else:
+        print("Triângulo Escaleno (todos os lados diferentes).")
+else:
+    print("Os lados informados não formam um triângulo válido.")
+'''
+
+'''
+ex 50
+salario = float(input("Digite seu salário: R$ "))
+if salario <= 2000:
+    aliquota = 0.0
+elif salario <= 4000:
+    aliquota = 0.10
+else:
+    aliquota = 0.20
+
+imposto = salario * aliquota
+salaLiquido = salario - imposto
+print("Aliquota aplicada: ", aliquota * 100 ,"%" )
+print("Valor de imposto: R$", imposto)
+print("Salário restante: R$" ,salaLiquido)
+'''
+
+'''
+parte 4
+'''
+
+'''
+ex 51
+for i in range(1,11):
+    print(i)
+'''
+
+'''
+ex 52
+for i in range(10,0,-1):
+    print(i)
+'''
+
+'''
+ex 53
+for i in range(2,101,2):
+    print(i)
+'''
+
+'''
+ex 54
+for i in range(1,100,2):
+    print(i)
+'''
+
+'''
+ex 55
+numero = int(input("Digite um número para mostrar a tábuada dele até 10:"))
+for i in range(11):
+    print(i * numero)
+'''
+
+'''
+ex 56
+soma = 0
+N = int(input("Digite um número positivo:"))
+for i in range(0,N+1):
+    soma = soma + i
+print(soma)
+'''
+
+'''
+ex 57
+num = int(input("digite um número que não seja negativo:"))
+fatori = 1
+for i in range(1, num + 1):
+ fatori = fatori * i
+print(fatori)
+'''
+
+'''
+ex 58
+par = 0
+for i in range(1 ,11):
+    num = int(input("Digite um número:"))
+    if(num % 2 == 0):
+        par = par + 1
+print(par)
+'''
+
+'''
+ex 59
+posi = 0
+for i in range(1, 11):
+    num = float(input("Digite um número: "))
+    if num > 0:
+     posi= posi + num
+
+print(posi)
+'''
+
+'''
+ex 60
+maior = int(input("Digite o primeiro número: "))
+for i in range(2, 6):
+    num = int(input("Digite um número: "))
+    if (num > maior):
+        maior = num
+print(maior)
+'''
+
+'''
+ex 61
+menor = int(input("Digite o primeiro número: "))
+for i in range(1, 6):
+    num = int(input("Digite um número: "))
+    if (num < menor):
+        menor = num
+print(menor)
+'''
+
+'''
+ex 62
+soma = 0
+for i in range(1, 6):
+    nota = int(input("Digite sua nota: "))
+    soma = soma + nota
+media = soma / 5
+print(media)
+'''
+
+'''
+ex 63
+senha = 0
+while senha != 123:
+    senha = int(input("Digite sua senha: "))
+'''
+
+'''
+ex 64
+num = int(input("Digite um número: "))
+while num <= 0:
+    num = int(input("Digite um valor válido: "))
+print("Valor válido!")
+'''
+
+'''
+ex 65
+opcao = 1
+while opcao != 0:
+    print("--- MENU ---")
+    print("1 - Dizer olá")
+    print("2 - Mostrar uma mensagem")
+    print("0 - Sair")
+    opcao = int(input("Escolha uma opção: "))
+    if opcao == 1:
+        print("Olá!")
+    elif opcao == 2:
+        print("Bons estudos de Python!")
+    elif opcao == 0:
+        print("A encerrar o programa")
+    else:
+        print("Opção inválida!")
+'''
+
+'''
+ex 66
+soma = 0
+while True:
+    num = int(input("Digite um número (ou 0 para terminar): "))
+    if (num == 0):
+        break
+    soma = soma + num
+print("A soma de todos os números digitados é:" ,soma)
+'''
+
+'''
+ex 67
+soma = 0
+while True:
+    num = int(input("Digite um número (ou -1 para encerrar)"))
+    if num == -1:
+        break
+    soma = soma + num
+    metade = soma / num
+print("A soma de todos é: ", soma)
+print("A média é: ", metade)
+'''
+
+'''
+ex 68
+secreto = 2016
+palpite = int(input("Tente adivinhar o número secreto: "))
+while palpite != secreto:
+    if palpite < secreto:
+        print("O número secreto é MAIOR.")
+    else:
+        print("O número secreto é MENOR.")
+    palpite = int(input("Tente novamente: "))
+print("Parabéns! Você acertou o número secreto.")
+'''
+
+'''
+ex 69
+numero = int(input("Digite um número inteiro maior que 1: "))
+divisores = 0
+for i in range(1, numero + 1):
+    if numero % i == 0:
+        divisores += 1
+if divisores == 2:
+    print("O número" ,numero ,"é PRIMO.")
+else:
+    print(f"O número" ,numero ,"NÃO é primo.")
+'''
+
+'''
+ex 70
+inicio = int(input("Digite o início do intervalo: "))
+fim = int(input("Digite o fim do intervalo: "))
+print("Números primos entre" ,inicio ,"e" ,fim)
+for num in range(inicio, fim + 1):
+    if num > 1:
+        divisores = 0
+        for i in range(1, num + 1):
+            if num % i == 0:
+                divisores += 1
+        if divisores == 2:
+            print(num, end=" ")
+print()
+'''
+
+'''
+parte 5
+'''
+
+'''
+ex 71
+nome = "Davi"
+print(len(nome))
+'''
+
+'''
+ex 72
+nome = "Matheus"
+print(nome.upper())
+print(nome.lower())
+'''
+
+'''
+ex 73
+nome = "cesar"
+print(nome[len(nome) - 1])
+print(nome[0])
+'''
+
+'''
+ex 74
+nome = "Raphael"
+print(nome.lower().count("a"))
+'''
+
+'''
+ex 74
+nome = input("Digite uma palavra/nome (qualquer uma):")
+if (nome == nome [:: -1]):
+    print("A palavra é palíndromo")
+else:
+    print("A palavra não é palíndromo")
+'''
+
+'''
+ex 76
+texto = "Eu gosto de jogar"
+novotexto = texto.split()
+for i in range(len(novotexto)-1,-1,-1):
+    print(novotexto[i])
+'''
+
+'''
+ex 77
+texto = input("Digite alguma coisa:")
+novotexto = texto.split()
+print(novotexto)
+'''
+
+'''
+ex 78
+palavra = input("Digite uma palavra:")
+print(len(palavra))
+'''
+
+'''
+ex 79
+frase = input("Digite uma frase: ")
+antiga = input("Frase a ser substituída: ")
+nova = input("Nova palavra: ")
+print(frase.replace(antiga, nova))
+'''
+
+'''
+Parte 6
+'''
+
+'''
+ex 81
+lista = ["Matheus", "Lucas", "João", "Davi", "Gustavo"]
+for nome in lista:
+    print(nome)
+'''
+
+'''
+82
+lista = []
+for i in range(5):
+    nome = input("Digite um nome:")
+    lista.append(nome)
+print()
+'''
+
+'''
+ex 83
+lista = [5, 6, 10, 21, 1, 2]
+soma = 0
+for num in lista:
+    soma = soma + num
+print(soma)
+'''
+
+'''
+ex 84
+lista = [10, 5, 9, 90, 80, 100, 50, 400, 401]
+maior = 0
+for num in lista:
+    if (num > maior):
+        maior = num
+print(maior)
+'''
+
+'''
+lista = [100, 302, 4020, 90112, 500, 212, 213, 142, 125, 124]
+menor = lista[0]
+for num in lista:
+    if (num < menor):
+        menor = num
+print(menor)
+'''
+
+'''
+ex 86
+lista = []
+for num in range(5):
+    numm = int(input("Digite um número:"))
+    lista.append(numm)
+media = sum(lista) / len(lista)
+print(media)
+'''
+
+'''
+ex 87
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+par = []
+for num in lista:
+    if (num % 2 == 0):
+        par.append(num)
+print(par)
+'''
+
+'''
+ex 88
+lista = ["Davi", "Matheus", "David", "João"]
+remov = input("Digite um nome para remover:")
+if (remov in lista):
+    lista.remove(remov)
+    print("Lista atualizada" ,lista)
+else:
+    print("Esse nome não está na lista")
+'''
+
+'''
+ex 89
+lista = []
+for i in range(5):
+    prod = input("Digite o produto: ")
+    lista.append(prod)
+busca = input("Digite o produto para buscar: ")
+if (busca in lista):
+    print("Produto cadastrado")
+else:
+    print("Produto não encontrado")
+'''
+
+'''
+ex 90
+lista = []
+for i in range(6):
+    num = int(input("Digite um núnero: "))
+    lista.append(num)
+lista.sort()
+print("Ordem crescente" ,lista)
+lista.sort(reverse=True)
+print("Ordem decrescente:" ,lista)
+'''
+
+'''
+ex 91
+numeros = set()
+for i in range(10):
+    num = int(input("Digite um número: "))
+numeros.add(num)
+print(numeros)
+'''
+
+'''
+ex 92
+numero1 = {1,2,3,4}
+numero2 = {4,5,6,7,8}
+intersessão = numero1 & numero2
+print(intersessão)
+'''
+
+'''
+ex 93  
+tupla = (5, 6)
+x, y = tupla
+print("X: " ,x)
+print("y: " ,y)
+'''
+
+'''
+ex 94
+sobrepessoa = {
+    "Nome": "Davi",
+    "Idade": 16,
+    "Cidade": "Uberlândia"
+}
+print("O" ,sobrepessoa["Nome"] ,"tem" ,sobrepessoa["Idade"] ,"anos e mora em" ,sobrepessoa["Cidade"])
+'''
+
+'''
+ex 95
+nome = input("Digite seu nome: ")
+nota1 = float(input("Digite sua nota: "))
+nota2 = int(input("Digite sua nota: "))
+pessoa = {
+    "nome": nome,
+    "nota1": nota1,
+    "nota2": nota2,
+    "media": (nota1 + nota2) / 2
+}
+print(pessoa)
+'''
+
+'''
+ex 96
+produtos = [
+    {"nome": "tomate",
+     "preço": 5.00},
+
+    {"nome": "alface",
+     "preço": 6.00},
+
+    {"nome": "uva",
+     "preço": 5.89} 
+]
+for prod in produtos:
+    print(prod)
+'''
+
+'''
+ex 97
+produtos = [
+    {"nome": "teclado", 
+     "preço": 150.99},
+    {"nome": "placa de video RX580", 
+     "preço": 799.00},
+    {"nome": "monitor 144hz lg",
+     "preço": 857.44}
+]
+caro = produtos[0]
+for prod in produtos:
+    if prod["preço"] > caro["preço"]:
+        caro = prod
+print("produto mais caro" ,caro["nome"] ,"R$" ,caro["preço"])
+'''
+
+'''
+contato = [
+    {"David": "(34) 99898-8989"},
+    {"Raphael": "(34) 96767-4242"},
+    {"Felipe": "(34) 96969-2424"}
+]
+nome = input("Digite um nome para achar o contato: ")
+
+
+for i in contato:
+    if nome in i:
+        print("contato de" ,nome,": " ,i[nome])
+    else:
+        print("Contato não encontrado")
+'''
+
+'''
+ex 99
+frase = input("Digite uma frase: ")
+palavra = frase.split()
+contagem = {}
+for palav in palavra:
+    palavralimp = palav.lower()
+    contagem[palavralimp] = contagem.get(palavralimp, 0) + 1
+print(contagem)
+'''
+
+'''
+ex 100
+estoque = {
+    "Caneta": 50,
+    "Caderno": 20,
+    "Borracha": 30
+}
+produto = input("Digite o nome de um produto: ")
+quantidade = int(input("Digite o valor para retirada do produto: "))
+if produto in estoque:
+    if quantidade <= estoque[produto]:
+        estoque[produto] = estoque[produto] - quantidade
+        print("Retirado com sucesso")
+        print("Estoque atualizado: " ,estoque[produto])
+    else:
+        print("Não há estoque suficiente")
+else:
+    print("Produto não encontrado")
+'''
+
+'''
+Parte 7
+'''
+
+'''
+ex 101
+def saudacao():
+    print("Seja bem vindo")
+saudacao()
+'''
+
+'''
+102
+def saudacao(nome):
+    print("Seja bem vindo" ,nome)
+saudacao("Matheus")
+'''
+
+'''
+ex 103
+def saudacao(x,y):
+    print(x + y)
+saudacao(4,5)
+'''
+
+'''
+ex 104
+def maior(a,b):
+    if a > b:
+        return a
+    else:
+        return b
+print(maior(1000,3030))
+'''
+
+'''
+ex 105
+def par_imp(numero):
+    if numero % 2 == 0:
+        return "par"
+    else:
+        return "impar"
+print(par_imp(478789))
+'''
+
+'''
+ex 106
+def media(nota1,nota2,nota3):
+    return(nota1 + nota2 + nota3) / 3
+mediaa = media(8.0, 9.0, 30)
+print(mediaa)
+'''
+
+'''
+ex 107
+def retang(largura, altura):
+    return largura * altura
+print(retang(5,4))
+'''
+
+'''
+ex 108
+def celsforfah(celsius):
+    return celsius * 9 / 5 + 32
+temp = celsforfah(30)
+print(temp)
+'''
+
+'''
+ex 109
+def fatorial(numero):
+    resultado = 1
+    for i in range(1, numero + 1):
+        resultado *= i
+    return resultado
+print(fatorial(5))
+'''
+
+'''
+ex 110
+def primo(numero):
+    if numero < 2:
+        return False
+    for i in range(2, numero):
+        if numero % i == 0:
+            return False
+        return True
+print(primo(7))
+print(primo(10))
+'''
+
+'''
+ex 111
+def cont(texto):
+    vogais = "aeiouAEIOU"
+    contador = 0
+    for letra in texto:
+        if letra in vogais:
+            contador += 1
+    return contador
+print(cont("python"))
+'''
+
+'''
+ex 112
+def maiorl(lista):
+    maior = lista[0]
+    for elemento in lista:
+        if elemento > maior:
+            maior = elemento
+    return maior
+numeros = [15, 8, 42, 23, 16]
+print(maiorl(numeros))
+'''
+
+'''
+ex 113
+def media(lista):
+    if len(lista) == 0:
+        return 0
+    return sum(lista) / len(lista)
+print(media([10, 20, 30]))
+print(media([]))
+'''
+
+'''
+ex 114
+def filtposit(lista):
+    positivos = []
+    for numero in lista:
+        if numero > 0:
+            positivos.append(numero)
+    return positivos
+num = [50, -2, 10, 30, -65]
+print(filtposit(num))
+'''
+
+'''
+ex 115
+def somar(a,b):
+    return a + b
+def subtrair(a,b):
+    return a - b
+def multiplicar(a,b):
+    return a * b
+def dividir(a,b):
+    if b != 0:
+        return a / b
+    else:
+        return "Erro de divisão"
+print("---CALCULADORA---")
+print("1 - somar")
+print("2 - subtrair")
+print("3 - multiplicar")
+print("4 - dividir")
+opcao = input("Escolha uma opção de 1 a 4: ")
+num1 = float(input("Digite seu primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+if opcao == "1":
+    print("Resultado: ",somar(num1, num2))
+elif opcao == "2":
+    print("Resultado:", subtrair(num1, num2))
+elif opcao == "3":
+    print("Resultado:", multiplicar(num1, num2))
+elif opcao == "4":
+    print("Resultado:", dividir(num1, num2))
+else:
+    print("Opção inválida!")
+'''
+
+'''
+parte 8
+'''
+
+'''
+ex 116
+nome = input("Digite seu nome: ")
+with open("nome.txt", "w") as ficheiro:
+    ficheiro.write(nome)
+print("Nome gravado com sucesso")
+'''
+
+'''
+ex 117
+with open("nome.txt", "a") as ficheiro:
+    while True:
+            nome = input("Digite um nome (ou 'sair' para encerrar)")
+            if nome.lower() ==    "sair":
+                  break
+            ficheiro.write(nome)
+'''
+
+'''
+ex 118
+with open("nome.txt", "r") as ficheiro:
+    conteudo = ficheiro.read()
+print("Conteúdo do arquivo")
+print(conteudo)
+'''
+
+'''
+ex 119
+with open("nome.txt", "r", encoding="utf-8") as origem:
+    for linha in origem:
+        print(linha.strip())
+'''
+
+'''
+ex 120
+with open("nome.txt", "r", encoding="utf-8") as ficheiro:
+    linhas = ficheiro.readlines()
+    print(len(linhas))
+'''
+
+'''
+ex 121
+try:
+    idtext = input("Digite sua idade: ")
+    idade = int(idtext)
+    print("Ano que vem", idade + 1)
+except ValueError:
+    print("Informe a idade usando algoritmos.")
+'''
+
+'''
+ex 122
+try:
+    participantes = int(input("Participantes: "))
+    fatias = 24 / participantes
+    print("Unidade por pessoas: ", fatias)
+except ValueError:
+    print("Digiten um número válido.")
+except ZeroDivisionError:
+    print("O número não pode ser zero.")
+
+'''
+
+'''
+ex 123
+import calculos
+print(calculos.resolv(3,4))
+print(calculos.resolv2(5,3))
+'''
+
+'''
+Parte 9
+'''
+
+'''
+ex 124
+class personagem:
+    def __init__(self,nome,idade,cidade):
+        self.nome = nome
+        self.idade = idade
+        self.cidade = cidade
+
+Davi = personagem("Davi",17,"Uberlândia")
+print(Davi.nome, Davi.idade, Davi.cidade)
+'''
+
+'''
+ex 125
+class personagem:
+    def __init__(self,nome,idade):
+        self.nome = nome
+        self.idade = idade
+Raphael = personagem("Raphael", 29)
+Cesar = personagem("César", 15)
+print(Raphael.nome, Raphael.idade, Cesar.nome, Cesar.idade)
+'''
+
+'''
+ex 126
+class personagem:
+    def __init__(self,nome,idade):
+        self.nome = nome
+        self.idade = idade
+    def apresentar(self):
+        print("Oi, meu nome é ", self.nome ,"e tenho " ,self.idade ,"anos")
+Lucas = personagem("Lucas", 18)
+Lucas.apresentar()
+'''
+
+'''
+ex 127
+class produtos:
+    def __init__(self,nome,preco):
+        self.nome = nome
+        self.preco = preco
+    def mostrarProd(self):
+        print("O" ,self.nome ,"e custa R$" ,self.preco)
+
+
+Tomate = produtos("Tomate", 2.99)
+Tomate.mostrarProd()
+
+Alface = produtos("Alface", 3.65)
+Alface.mostrarProd()
+
+Uva = produtos("Uva", 2.36)
+Uva.mostrarProd()
+'''
+
+'''
+ex 128
+class produtos:
+    def __init__(self,nome,preco):
+        self.nome = nome
+        self.preco = preco
+    def desconto(self, percentual):
+        desconto = self.preco * (percentual / 100)
+        self.preco -= desconto
+Camisa = produtos("Camisa", 100)
+print("Preço sem desconto: R$" ,Camisa.preco)
+Camisa.desconto(10)
+print("Preço com desconto: R$" ,Camisa.preco)
+'''
+
+'''
+ex 129
+class contabanc:
+    def __init__(self,nome,saldo):
+        self.nome = nome
+        self.saldo = saldo
+
+    def depositar(self, valor):
+        self.saldo = valor + self.saldo
+
+    def sacar(self, valor):
+        if valor <= self.saldo:
+            self.saldo = self.saldo - valor
+        else:
+            print("Operação negada: saldo insuficiente.")
+
+conta = contabanc("Davi" ,1000)
+print("Titular" ,conta.nome)
+
+conta.depositar(400)
+print("Após deposito: ",conta.saldo)
+
+conta.sacar(200)
+print("Após saque: ",conta.saldo)
+
+conta.sacar(2000)
+'''
+
+'''
+ex 130
+class aluno:
+    def __init__(self,nome,nota):
+        self.nome = nome
+        self.nota = nota
+
+    def calcular_media(self):
+        soma = sum(self.nota)
+        quantidade = len(self.nota)
+        return soma / quantidade
+
+Aluno = aluno("Davi", [8.0, 9.0, 7.5, 10])
+print("Aluno: " ,Aluno.nome)
+print("Notas: " ,Aluno.nota)
+
+media = Aluno.calcular_media()
+print("Média: " ,media)
+'''
+
+'''
+ex 131
+class aluno:
+    def __init__(self,nome,nota):
+        self.nome = nome
+        self.nota = nota
+    def calcular_media(self):
+        soma = sum(self.nota)
+        quantidade = len(self.nota)
+        return soma / quantidade
+
+    def aprov_reprov(self):
+        media = self.calcular_media()
+        if media >= 6:
+            return "Aprovado"
+        else:
+            return "Reprovado"
+
+Aluno = aluno("Davi", [7.0, 9.0, 7.8, 8.0])
+print("Aluno: " ,Aluno.nome)
+print("Nota: " ,Aluno.nota)
+print("Média: " ,Aluno.calcular_media())
+print("Situação: " ,Aluno.aprov_reprov())
+'''
+
+'''
+ex 132
+class retangulo:
+    def __init__(self,altura,largura):
+        self.largura = largura
+        self.altura = altura
+
+    def calcular_area(self):
+        return self.largura * self.altura
+    
+    def calcular_perimetro(self):
+        return 2 * self.largura + self.altura
+
+Retangulo = retangulo(5,3)
+print("Largura: " ,Retangulo.largura)
+print("Altura: " ,Retangulo.altura)
+print("Área: " ,Retangulo.calcular_area())
+print("Perímetro" ,Retangulo.calcular_perimetro())
+'''
+
+'''
+ex 133
+class carro:
+    def __init__(self,modelo,velMax):
+        self.modelo = modelo
+        self.velAtual = 0
+        self.velMax = velMax
+
+    def acelerar(self, valor):
+        velNova = self.velAtual + valor
+
+        if velNova <= self.velMax:
+            self.velAtual = velNova
+        else:
+            self.velAtual = self.velMax
+            print("Velocidade maxima atingida")
+    def frear(self,valor):
+        velNova = self.velAtual - valor
+
+        if velNova >= 0:
+            self.velAtual = velNova
+        else:
+            self.velAtual = 0
+            print("O carro parou compoletamente")
+
+Carro = carro("Nissan GT-R", 300)
+
+print("Modelo" ,Carro.modelo)
+print("Velocidade inicial" ,Carro.velAtual ,"Km/h")
+
+Carro.acelerar(100)
+print("Após acelerar 100: " ,Carro.velAtual ,"Km/h")
+
+Carro.acelerar(250)
+print("Após tentar acelerar muito: " ,Carro.velAtual ,"Km/h")
+
+Carro.frear(80)
+print("Após  frear 80: " ,Carro.velAtual, "Km/h")
+'''
+
+'''
+ex 134
+class livro:
+    def __init__(self, titulo,autor,disponivel):
+        self.titulo = titulo
+        self.autor = autor
+        self.disponivel = disponivel
+
+
+class biblioteca:
+    def __init__(self):
+        self.livros = []
+
+    def adicionar(self,livro):
+        livro.disponivel = True
+        self.livros.append(livro)
+        print("O livro foi adicionado com sucesso")
+
+    def listar(self):
+        for livro in self.livros:
+            print(livro)
+
+    def emprestar(self, emprestimo):
+        if emprestimo in self.livros:
+            posicao = self.livros.index(emprestimo)
+            self.livros[posicao].disponivel = False
+            print(emprestimo ,"Emprestado com sucesso")
+        else:
+            print("Deu não pae")
+
+    def devolver(self,devolvido):
+        if devolvido in self.livros:
+            posicao = self.livros.index(devolvido)
+            self.livros[posicao].disponivel = True
+            print("Livro devolvido")
+        else:       
+            print("Esse livro não ta cadastrado bro")
+
+donquixote = livro("La Mancha", "Cortez", True)
+mobydick = livro("Moby Dick", "Ishmael", True)
+oestrangeiro = livro("O Estrangeiro", "Albert Camus", True)
+
+La_biblio = biblioteca()
+
+La_biblio.adicionar(donquixote)
+La_biblio.listar()
+La_biblio.emprestar(donquixote)
+La_biblio.devolver(donquixote)
+'''
